@@ -36,3 +36,26 @@ console.log(typeof newArrau);
 // SLICE SPLICE
 
 //.................................||..................................//
+// CONCATE
+
+const myName = ["Rani", "Anuja", "Tanuja"];
+const myName2 = ["Pawar", "pink", "blue"];
+// const allName = myName.concat(myName2);
+// console.log(allName);
+
+//.................................||..................................//
+// spreadoperator -- concate and this is the worked
+const all_new_name = [...myName, ...myName2];
+console.log(all_new_name);
+
+//.................................||..................................//
+// FLAT-- to generate value in one array
+const anotheArray = [1, 2, 3, [5, 6], 8.6, 2, [8, [4, 96]]];
+const realArray = anotheArray.flat(Infinity);
+console.log(realArray);
+
+//.................................||..................................//
+// isArray -- to check array or not
+//FROM  --- converting to array
+console.log(Array.isArray("Rani"));
+console.log(Array.from("Rani"));
