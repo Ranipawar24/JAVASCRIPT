@@ -60,3 +60,11 @@ console.log(realArray);
 console.log(Array.isArray("Rani"));
 
 console.log(Array.from({ name: "Rani" })); //Interesting gives us a empty array
+
+//.................................||..................................//
+// .OF  give us a form of array
+let score1 = 100;
+let score2 = 600;
+let score3 = 900;
+
+console.log(Array.of(score1, score2, score3));
