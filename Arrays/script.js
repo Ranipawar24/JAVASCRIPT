@@ -58,4 +58,5 @@ console.log(realArray);
 // isArray -- to check array or not
 //FROM  --- converting to array
 console.log(Array.isArray("Rani"));
-console.log(Array.from("Rani"));
+
+console.log(Array.from({ name: "Rani" })); //Interesting gives us a empty array
