@@ -33,3 +33,5 @@ jsUser.greetings1 = function () {
 };
 console.log(jsUser.greetings());
 console.log(jsUser.greetings1());
+
+//.................................||..................................//
