@@ -35,3 +35,4 @@ console.log(jsUser.greetings());
 console.log(jsUser.greetings1());
 
 //.................................||..................................//
+// changes made
