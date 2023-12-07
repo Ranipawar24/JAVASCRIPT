@@ -53,3 +53,13 @@ const regularUser = {
   },
 };
 console.log(regularUser.fullName.userFullName.lastname);
+
+//.................................||..................................//
+// combine object
+
+const obj1 = { 1: "a", 2: "b" };
+const obj2 = { 3: "a", 4: "b" };
+const obj4 = { 5: "a", 6: "b" };
+
+const obj3 = Object.assign({}, obj1, obj2, obj4); // {}=target, obj1 = source
+console.log(obj3);
