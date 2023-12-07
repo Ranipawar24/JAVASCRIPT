@@ -89,3 +89,14 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty("isLoged"));
+
+//.................................||..................................//
+//Object Destructoring and JSON API intro
+
+const course = {
+  coursename: "js",
+  price: "999",
+  courseInstruc: "hitesh",
+};
+const { courseInstruc: instructor } = course; // method
+console.log(instructor);
