@@ -18,21 +18,21 @@ const jsUser = {
 // console.log(jsUser[mySymbol]);
 // console.log(typeof [mySymbol]);
 
-jsUser.email = "rani@google.com";
-// Object.freeze(jsUser);  // change email ramein same
-jsUser.email = "rani@mishi.com";
-// console.log(jsUser);
+// jsUser.email = "rani@google.com";
+// // Object.freeze(jsUser);  // change email ramein same
+// jsUser.email = "rani@mishi.com";
+// // console.log(jsUser);
 
-jsUser.greetings = function () {
-  console.log("Hello there");
-};
-console.log(jsUser.greetings());
+// jsUser.greetings = function () {
+//   console.log("Hello there");
+// };
+// console.log(jsUser.greetings());
 
-jsUser.greetings1 = function () {
-  console.log(`Hello there, ${this.name}`);
-};
-console.log(jsUser.greetings());
-console.log(jsUser.greetings1());
+// jsUser.greetings1 = function () {
+//   console.log(`Hello there, ${this.name}`);
+// };
+// console.log(jsUser.greetings());
+// console.log(jsUser.greetings1());
 
 //.................................||..................................//
 // const tinderUser = {};
@@ -42,3 +42,14 @@ console.log(jsUser.greetings1());
 // console.log(tinderUser);
 
 //.................................||..................................//
+//Nested
+const regularUser = {
+  email: "rani@12gmail.com",
+  fullName: {
+    userFullName: {
+      firstname: "Rani",
+      lastname: "Pawar",
+    },
+  },
+};
+console.log(regularUser.fullName.userFullName.lastname);
