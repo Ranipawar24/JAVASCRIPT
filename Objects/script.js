@@ -35,11 +35,11 @@ const jsUser = {
 // console.log(jsUser.greetings1());
 
 //.................................||..................................//
-// const tinderUser = {};
-// tinderUser.id = "124abc";
-// tinderUser.name = "Sammy";
-// tinderUser.isLogedIn = false;
-// console.log(tinderUser);
+const tinderUser = {};
+tinderUser.id = "124abc";
+tinderUser.name = "Sammy";
+tinderUser.isLogedIn = false;
+console.log(tinderUser);
 
 //.................................||..................................//
 //Nested
@@ -55,7 +55,7 @@ const regularUser = {
 console.log(regularUser.fullName.userFullName.lastname);
 
 //.................................||..................................//
-// combine object
+// combine object USING SPREAD OPERATOR
 
 const obj1 = { 1: "a", 2: "b" };
 const obj2 = { 3: "a", 4: "b" };
@@ -64,3 +64,28 @@ const obj4 = { 5: "a", 6: "b" };
 // const obj3 = Object.assign({}, obj1, obj2, obj4); // {}=target, obj1 = source
 const obj3 = { ...obj1, ...obj2, ...obj4 }; // using spread operator
 console.log(obj3);
+
+//.................................||..................................//
+//ARRAY OF OBJECTS
+
+const users = [
+  {
+    id: 1,
+    email: "h@gmail.com",
+  },
+  {
+    id: 1,
+    email: "h@gmail.com",
+  },
+  {
+    id: 1,
+    email: "h@gmail.com",
+  },
+];
+users[1].email;
+console.log(tinderUser);
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+
+console.log(tinderUser.hasOwnProperty("isLoged"));
