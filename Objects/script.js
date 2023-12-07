@@ -35,5 +35,10 @@ console.log(jsUser.greetings());
 console.log(jsUser.greetings1());
 
 //.................................||..................................//
-// changes
+// const tinderUser = {};
+// tinderUser.id = "124abc";
+// tinderUser.name = "Sammy";
+// tinderUser.isLogedIn = false;
+// console.log(tinderUser);
+
 //.................................||..................................//
