@@ -19,3 +19,6 @@ console.log(c);
 //.................................||..................................//
 
 // Nested scope
+function one() {
+  const userName = "Rani";
+}
