@@ -38,6 +38,7 @@ function addOne(num) {
   return num + 1;
 }
 
+// because of hoisting addTwo cannot access before initialization
 console.log(addTwo(5));
 const addTwo = function (num) {
   return num + 2;
