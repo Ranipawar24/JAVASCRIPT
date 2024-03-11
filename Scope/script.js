@@ -21,4 +21,8 @@ console.log(c);
 // Nested scope
 function one() {
   const userName = "Rani";
+
+  function two() {
+    const website = "youTube";
+  }
 }
