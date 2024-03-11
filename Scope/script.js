@@ -26,4 +26,7 @@ function one() {
     const website = "youTube";
     console.log(userName);
   }
+  console.log(website);
+  two();
 }
+one();
