@@ -2,7 +2,7 @@ const marks = [52, 63, 85, 91, false, "Not present"];
 const myArr = ["sonu", "monu"];
 const myArr2 = new Array(1, 2, 4, 6);
 console.log(myArr[0]);
-// console.log(marks);
+console.log(marks);
 // console.log(0);
 // console.log(1);
 // console.log(2);
