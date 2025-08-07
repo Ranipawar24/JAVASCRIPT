@@ -12,7 +12,7 @@ console.log(marks);
 
 //.................................||..................................//
 
-Array Methods
+// Array Methods
 
 // myArr2.push(7); // foradd
 // console.log(myArr2);
